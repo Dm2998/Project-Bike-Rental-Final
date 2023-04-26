@@ -1,0 +1,71 @@
+/* Start of Footer CSS */
+
+/* Footer container */
+.footer {
+  padding: 0.5px 0; /* Padding at the top and bottom */
+  margin-top: auto; /* Margin at the top to automatically fill the remaining space */
+}
+
+/* Footer paragraph text */
+.footer p {
+  font-size: 0.85rem; /* Font size */
+  color: #f8f9fa; /* Text color */
+}
+
+/* Footer row border */
+.footer .row:first-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Border at the bottom */
+  margin-bottom: 0.5rem; /* Margin below the border */
+}
+
+/* Newsletter */
+/* Footer form alignment */
+.footer form {
+  text-align: center; /* Center the form content */
+}
+
+/* Footer form title */
+.footer form h5 {
+  color: #f8f9fa; /* Text color */
+  margin-bottom: 0.5rem; /* Margin below the title */
+}
+
+/* Footer form description */
+.footer form p {
+  color: #adb5bd; /* Text color */
+  font-size: 1rem; /* Font size */
+  margin-bottom: 0.5rem; /* Margin below the description */
+}
+
+/* Footer form input */
+.footer form .form-control {
+  background-color: rgba(255, 255, 255, 0.212); /* Background color */
+  border: none; /* No border */
+  color: #000000; /* Text color */
+  transition: background-color 0.2s; /* Smooth background color transition */
+  margin-bottom: -20px;
+}
+
+/* Footer form input focus */
+.footer form .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.986); /* Background color on focus */
+  box-shadow: none; /* No box shadow on focus */
+  outline: none; /* No outline on focus */
+}
+
+/* Footer form button */
+.footer form .btn {
+  background-color: #c0392b; /* Background color */
+  border: none; /* No border */
+  transition: background-color 0.2s; /* Smooth background color transition */
+}
+
+/* Footer form button hover */
+.footer form .btn:hover {
+  background-color: #c0392b; /* Background color on hover */
+}
+
+/* End of Footer CSS */
+
+
+
